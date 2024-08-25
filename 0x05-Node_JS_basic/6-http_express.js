@@ -7,8 +7,6 @@ app.get('/', (req, res) => {
   res.send('Hello Holberton School!');
 });
 
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}/`);
-});
+app.listen(port);
 
 module.exports = app;

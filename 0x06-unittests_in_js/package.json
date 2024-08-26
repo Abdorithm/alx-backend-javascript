@@ -13,5 +13,8 @@
   "devDependencies": {
     "eslint": "^6.4.0",
     "mocha": "^6.2.2"
+  },
+  "dependencies": {
+    "chai": "^5.1.1"
   }
 }
